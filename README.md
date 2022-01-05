@@ -135,7 +135,7 @@ End Sub
 ```
 
 ## Summary
-From this analysis, we determined that only one ticker (TERP, -7.2%) had a negative return in 2017. Each of the other tickers had a positive return in 2017. In the next year, the only tickers with a positive return in 2018 were ENPH (81.9%) and RUN (84.0%). Every other ticker had a negative return on the year.  
+From this analysis, we determined that only one ticker (**TERP**, -7.2%) had a negative return in 2017. Each of the other tickers had a positive return in 2017. In the next year, the only tickers with a positive return in 2018 were **ENPH** (81.9%) and **RUN** (84.0%). Every other ticker had a negative return on the year.  
 
 ### Advantages & Disadvantages
 One huge advantage to this method is the speed for our current data table. Each year had a run time of less than 0.5 seconds. The disadvantage of this method is that the run time can take a lot longer with larger datasets. See below for screenshots of the runtimes. 

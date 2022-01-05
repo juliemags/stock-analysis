@@ -1,9 +1,9 @@
 # stock-analysis
 
-##Overview
+## Overview
 The purpose of our project is to refactor our VBA Code to cycle through data in an attempt to collect our data faster than our original method (not refactoring). We are trying to determine the value of 12 stocks from 2017 and 2018 by looking at a large amount of data at one time, rather than looking at each data point, which would be inefficient and slow. 
 
-##Results
+## Results
 We analyzed 12 stocks in 2 different sheets of data, each tied to a different year (2017 and 2018). Each stock had the high value, low value, closing value, adjusted closing value, and volume for each day in the year. This information all comes together to help determine whether Steve should buy any of these stocks or not. 
 
 Using this data, we refactored VBA code to hopefully create quicker results when looking at larger sets of data. After the user inputs the desired year of analysis, the intended output of our data would be in a separate "All Stocks Analysis" tab that posts the Ticker, the Total Daily Volume, and the Return % for the indicated year. We also timed the code to determine how quickly the program would run from start to finish. The code is included below: 
@@ -134,16 +134,12 @@ Sub AllStocksAnalysisRefactored()
 End Sub
 ```
 
-
-
-
-##Summary
+## Summary
 From this analysis, we determined that only one ticker (TERP, -7.2%) had a negative return in 2017. Each of the other tickers had a positive return in 2017. In the next year, the only tickers with a positive return in 2018 were ENPH (81.9%) and RUN (84.0%). Every other ticker had a negative return on the year.  
 
-###Advantages & Disadvantages
+### Advantages & Disadvantages
 One huge advantage to this method is the speed for our current data table. Each year had a run time of less than 0.5 seconds. The disadvantage of this method is that the run time can take a lot longer with larger datasets. See below for screenshots of the runtimes. 
 
 
-
-###Pros and Cons to Refactoring VBA
+### Pros and Cons to Refactoring VBA
 One pro to refactoring is that the runtime is shorter than any more manual coding method. An experienced coder will be able to loop through the data quickly without many hiccups. One con is that the code is difficult for people with little organization skills or experience coding, as the for and if loops can cause a novice coder to be very confused. 

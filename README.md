@@ -139,8 +139,8 @@ From this analysis, we determined that only one ticker (TERP, -7.2%) had a negat
 
 ### Advantages & Disadvantages
 One huge advantage to this method is the speed for our current data table. Each year had a run time of less than 0.5 seconds. The disadvantage of this method is that the run time can take a lot longer with larger datasets. See below for screenshots of the runtimes. 
-!(https://github.com/juliemags/stock-analysis/blob/main/Resources/VBA_Challenge_2017.PNG)
-!(https://github.com/juliemags/stock-analysis/blob/main/Resources/VBA_Challenge_2018.PNG
+![2017 Runtime](https://github.com/juliemags/stock-analysis/blob/main/Resources/VBA_Challenge_2017.PNG)
+![2018 Runtime](https://github.com/juliemags/stock-analysis/blob/main/Resources/VBA_Challenge_2018.PNG)
 
 ### Pros and Cons to Refactoring VBA
 One pro to refactoring is that the runtime is shorter than any more manual coding method. An experienced coder will be able to loop through the data quickly without many hiccups. One con is that the code is difficult for people with little organization skills or experience coding, as the for and if loops can cause a novice coder to be very confused. 
